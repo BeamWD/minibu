@@ -81,5 +81,9 @@ h1 {
 }
 </style>
 
-<style> /*other*/
+<style> /*images*/
+body {
+  background-image: url(img/bg_diagonal.png);
+  background-repeat: repeat;
+}
 </style>
