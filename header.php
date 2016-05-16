@@ -18,35 +18,45 @@
 <!-- Google + ? -->
 
 <style> /*colors*/
+
+/*
+  rouge : rgb(207,26,32);
+  rouge clair : rgb(237,75,80);
+  gris : rgb(208,210,211);
+  gris clair : rgb(217,219,220);
+  bleu : (50,68,150);
+  bleu clair : (102,123,185);
+*/
+
 #header, #footer {
-	background-color: lightgreen;
+  background-color: lightgreen;
 }
 </style>
 
 <style> /*layout*/
 html, body, #map {
-	margin: 0 auto;
-	padding: 0 auto;
-	text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
 }
 input {
-	width: auto;
+  width: auto;
 }
 .admin_page {
-	width: auto;
+  width: auto;
 }
 
 #footer {
-	bottom: 0;
-	position: fixed;
-	width: 100%;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 #main {
-	margin: 1em;
+  margin: 1em;
 }
 #map {
-	clear: both;
-	border: 1px solid lightgreen;
+  clear: both;
+  border: 1px solid lightgreen;
   width: 325px;
   height: 300px;
 }

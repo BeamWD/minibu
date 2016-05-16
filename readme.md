@@ -31,19 +31,25 @@ Application en php + ajax, 2 pages
 * Log out
 
 ###To-do list
-* Ajouter logo à page d'accueil
-* Créer variantes taille logo (/2, /4, /8, etc.)
-* Tester responsivité logo
-* Créer favicons selon logo (16, 32, 64, 128 px)
-* Ajouter balises favicon
-* Présenter données php
-* Créer page login
-* Tester login
-* Upload sur [bastienmichaux.be/minibu](bastienmichaux.be/minibu)
-* Tester favicons
-* Créer squelette de la page admin
-* Créer formulaire de contact
-* Créer formulaire de login admin
+**Tâches prioritaires au sommet**
+
+* Présentation
+  * Créer variantes taille logo (*2) pour grands écrans
+  * Tester responsivité logo
+  * Créer favicons selon logo (16, 32, 64, 128 px)
+  * Ajouter balises favicon
+  * Présenter données php
+  * Créer page login
+  * Tester login
+  * Upload sur [bastienmichaux.be/minibu](bastienmichaux.be/minibu)
+  * Tester favicons
+  * Créer formulaire de contact
+  * Créer formulaire de login admin
+  * Animer logo ?
+* Administration 
+  * Créer squelette de la page admin
+* Fait :
+  * Squelette page index
 
 ###Support
 * IE 8
@@ -63,7 +69,8 @@ Application en php + ajax, 2 pages
 selon logo
 
 ###Ref fonts
-selon logo
+* Master of Break (Chez Minibu)
+* Franchise-Bold
 
 ###Idées design
 n clients via lettres vieux réveille-matin
