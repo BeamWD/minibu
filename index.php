@@ -71,7 +71,7 @@ html, body {
 				Logo
 			</span>
 			<span>
-				Mail
+				Mail <span class="glyphicon glyphicon-envelope"></span>
 			</span>
 			<span>
 				Facebook
@@ -114,7 +114,6 @@ html, body {
 "use strict";
 (function () {
 	document.getElementById("test").innerHTML = "Test js ok";
-	
 })();
 </script>
 </body>
