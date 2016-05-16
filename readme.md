@@ -36,9 +36,11 @@ Application en php + ajax, 2 pages
 * Tester responsivité logo
 * Créer favicons selon logo (16, 32, 64, 128 px)
 * Ajouter balises favicon
-* Upload sur bastienmichaux.be/minibu
-* Tester favicons
 * Présenter données php
+* Créer page login
+* Tester login
+* Upload sur [bastienmichaux.be/minibu](bastienmichaux.be/minibu)
+* Tester favicons
 * Créer squelette de la page admin
 * Créer formulaire de contact
 * Créer formulaire de login admin

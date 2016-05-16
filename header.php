@@ -29,6 +29,13 @@ html, body, #map {
 	padding: 0 auto;
 	text-align: center;
 }
+input {
+	width: auto;
+}
+.admin_page {
+	width: auto;
+}
+
 #footer {
 	bottom: 0;
 	position: fixed;
