@@ -31,7 +31,7 @@
 */
 
 #header, #footer {
-  background-color: lightgreen;
+  background-color: rgb(208,210,211);
 }
 </style>
 
@@ -41,9 +41,11 @@ html, body, #map {
   padding: 0 auto;
   text-align: center;
 }
-input {
-  width: auto;
+img {
+  max-width: 100%;
 }
+
+
 .admin_page {
   width: auto;
 }
@@ -58,7 +60,6 @@ input {
 }
 #map {
   clear: both;
-  border: 1px solid lightgreen;
   width: 325px;
   height: 300px;
 }

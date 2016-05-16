@@ -519,31 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 3769,
-				"line_ending": "Unix",
-				"name": "<!doctype html>"
-			}
-		},
-		{
-			"file": "admin.php",
-			"settings":
-			{
-				"buffer_size": 66,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "readme.md",
-			"settings":
-			{
-				"buffer_size": 1605,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -577,6 +552,11 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/minibu/readme.md",
+		"/Applications/MAMP/htdocs/minibu/admin.php",
+		"/Applications/MAMP/htdocs/minibu/header.php",
+		"/Applications/MAMP/htdocs/minibu/index.php",
+		"/Applications/MAMP/htdocs/minibu/authors.txt",
 		"/Applications/MAMP/htdocs/tests/game.html",
 		"/Applications/MAMP/htdocs/minibu/recup.php",
 		"/Applications/MAMP/htdocs/minibu/readme.txt",
@@ -699,12 +679,7 @@
 		"/Applications/MAMP/htdocs/tests_js/img.html",
 		"/Applications/MAMP/htdocs/tests_js/blank.html",
 		"/Applications/MAMP/htdocs/tests_js/jquery-1.12.1.min.js",
-		"/Users/bami/Documents/Cours du soir Info 1/ex java 18 mars v3.java",
-		"/Users/bami/Documents/Cours du soir Info 1/tut extends exemple.java",
-		"/Users/bami/Desktop/Bagage/java/tut packages.java",
-		"/Users/bami/Documents/Cours du soir Info 1/ex java 18 mars v2.java",
-		"/Users/bami/Documents/Cours du soir Info 1/ex java 18 mars v1.java",
-		"/Applications/MAMP/htdocs/tests_js/smooth scrolling.html"
+		"/Users/bami/Documents/Cours du soir Info 1/ex java 18 mars v3.java"
 	],
 	"find":
 	{
@@ -940,98 +915,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2658,
-								2658
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!doctype html>",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 840.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "admin.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 66,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "readme.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1605,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1205,
-								1205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 133.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -1116,7 +1001,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

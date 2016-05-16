@@ -1,0 +1,4 @@
+Web development : Bastien Michaux
+Graphic assets : Justin Michaux
+
+Counter : KennethCachia codepen.io/kennethcachia

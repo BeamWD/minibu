@@ -95,10 +95,10 @@
       <div id="test_php">
         <?php
           if ($test == True) {
-            echo "<span style='color:green'><b>PHP ok!</b></span>";
+            echo "<b style='color:green'>PHP ok!</b>";
           }
           else {
-            echo "<span style='color:red'><b>Bug PHP</b></span>";
+            echo "<b style='color:red'>Bug PHP</b>";
           }
         ?>
       </div>
@@ -109,7 +109,7 @@
 "use strict";
 (function () {
   //test
-  document.getElementById("test_js").innerHTML = "<span style='color:green'><b>Test js ok!</b></span>";
+  document.getElementById("test_js").innerHTML = "<b style='color:green'>Test js ok!</b>";
 })();
 </script>
 <script>
