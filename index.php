@@ -41,9 +41,12 @@ html, body {
 	text-align: center;
 }
 #footer {
-	position: absolute;
 	bottom: 0;
+	position: absolute;
 	width: 100%;
+}
+#main {
+	margin: 1em;
 }
 </style>
 
@@ -68,14 +71,16 @@ html, body {
 <div id="page">
 	<div id="header">
 		<header>
-			<span>
+			<span class="btn">
 				Logo
 			</span>
-			<span>
+			<span class="btn">
 				Mail <span class="glyphicon glyphicon-envelope"></span>
 			</span>
-			<span>
-				Facebook
+			<span class="btn">
+				<a >
+					Facebook
+				</a>
 			</span>
 		</header>
 	</div>
@@ -83,9 +88,9 @@ html, body {
 		<div id="logo">
 			<img src="logo" alt="Logo Minibu" />
 		</div>
-		<h1>Bienvenue chez Minibu</h1>
+		<h1>Bienvenue chez Minibu !</h1>
 		<h2>
-			Il y a <span id="n_clients">?? (manifestement un bug)</span> clients pour le moment.
+			Il y a <span id="n_clients">?? (bug)</span> clients pour le moment.
 		</h2>
 		<div id="test">
 			Test

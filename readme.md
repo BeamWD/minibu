@@ -6,12 +6,12 @@ Application en php + ajax, 2 pages
 
 ###Partie publique (index.php)
 * Logo
-* Horaires (+ fermé/ouvert)
-* Nombre de clients en temps réel (ajax)
-* Tarifs (les gens s'en foutent ptete)
+* Horaires (+ fermé/ouvert) (ass arr)
+* Nombre de clients en temps réel (ajax) (int)
+* Tarifs (les gens s'en foutent ptete) (ass arr)
 * Localisation Google Maps
 * Photo extérieur bâtiment ?
-* Lien facebook
+* Lien facebook (? pas de page fb apparemment)
   * ==> facebook feed carousel ?
 * Contacter (réservation, etc)
 * Login : Bouton Accès partie admin
@@ -29,6 +29,19 @@ Application en php + ajax, 2 pages
 * Changer localisation Google Maps ?
 * Changer mot de passe
 * Log out
+
+###To-do list
+* Ajouter logo à page d'accueil
+* Créer variantes taille logo (/2, /4, /8, etc.)
+* Tester responsivité logo
+* Créer favicons selon logo (16, 32, 64, 128 px)
+* Ajouter balises favicon
+* Upload sur bastienmichaux.be/minibu
+* Tester favicons
+* Présenter données php
+* Créer squelette de la page admin
+* Créer formulaire de contact
+* Créer formulaire de login admin
 
 ###Support
 * IE 8
