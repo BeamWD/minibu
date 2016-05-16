@@ -6,12 +6,12 @@
 <!-- No link, just place a file called favicon.ico in the root directory -->
 
 <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
-<!--
+
 <link rel="icon" href="img/favicon-16.png" sizes="16x16" type="image/png" />
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png" />
 <link rel="icon" href="img/favicon-48.png" sizes="48x48" type="image/png" />
 <link rel="icon" href="img/favicon-62.png" sizes="62x62" type="image/png" />
--->
+
 
 <link rel="stylesheet" href="bootstrap.css" />
 <link rel="stylesheet" href="bootstrap-theme.css" />
@@ -43,6 +43,9 @@ html, body, #map {
 }
 img {
   max-width: 100%;
+}
+#page img {
+
 }
 
 
