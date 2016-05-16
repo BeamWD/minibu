@@ -35,18 +35,24 @@
 </style>
 
 <style> /*layout*/
-html, body {
+html, body, #map {
 	margin: 0 auto;
 	padding: 0 auto;
 	text-align: center;
 }
 #footer {
 	bottom: 0;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 }
 #main {
 	margin: 1em;
+}
+#map {
+	clear: both;
+	border: 1px solid lightgreen;
+  width: 325px;
+  height: 300px;
 }
 </style>
 
@@ -66,22 +72,34 @@ html, body {
 	$tel = "071 17 75 55";
 	$horaires = array("Lundi"=>"8h - 19h","Mardi"=>"bite","Mercredi"=>"bite","Jeudi"=>"bite","Vendredi"=>"bite","Weekend"=>"bite");
 	$tarifs = array("Item"=>"Prix");
+
+	$test = True;
 ?>
 
 <div id="page">
 	<div id="header">
 		<header>
+			<!-- Cliquer/toucher pour revenir au haut de la page -->
 			<span class="btn">
-				Logo
+				<a>
+					Logo
+				</a>
 			</span>
+			<!-- cliquer/toucher pour aller au formulaire de contact -->
 			<span class="btn">
-				Mail <span class="glyphicon glyphicon-envelope"></span>
+				<a>Mail
+				<!--
+					<span class="glyphicon glyphicon-envelope"></span>
+				-->
+				</a>
 			</span>
+			<!-- ajouter ptête plus tard
 			<span class="btn">
-				<a >
+				<a>
 					Facebook
 				</a>
 			</span>
+			-->
 		</header>
 	</div>
 	<div id="main">
@@ -89,12 +107,9 @@ html, body {
 			<img src="logo" alt="Logo Minibu" />
 		</div>
 		<h1>Bienvenue chez Minibu !</h1>
-		<h2>
+		<b>
 			Il y a <span id="n_clients">?? (bug)</span> clients pour le moment.
-		</h2>
-		<div id="test">
-			Test
-		</div>
+		</b>
 		<div id="horaires">
 			Horaires ici (en php)
 		</div>
@@ -103,24 +118,50 @@ html, body {
 		</div>
 		<div id="plan">
 			Lien Google Map
+			<div id="map">
+			</div>
 		</div>
 		<!-- Photo extérieur du bâtiment ? -->
 		<div id="facebook">
-			Lien Facebook
+			Lien Facebook ?
 		</div>
 		<!-- Facebook feed ? -->
 	</div>
 	<div id="footer">
 		<footer>
 			Footer
+			<div id="test_js">
+				<span style='color:red'><b>Bug js</b></span>
+			</div>
+			<div id="test_php">
+				<?php
+					if ($test == True) {
+						echo "<span style='color:green'><b>PHP ok!</b></span>";
+					}
+					else {
+						echo "<span style='color:red'><b>Bug PHP</b></span>";
+					}
+				?>
+			</div>
 		</footer>
 	</div>
 </div>
 <script>
 "use strict";
 (function () {
-	document.getElementById("test").innerHTML = "Test js ok";
+  //test
+	document.getElementById("test_js").innerHTML = "<span style='color:green'><b>Test js ok!</b></span>";
 })();
 </script>
+<script>
+  function initMap() {
+    var mapDiv = document.getElementById('map');
+    var map = new google.maps.Map(mapDiv, {
+      center: {lat: 50.4003835, lng: 4.5293986},
+      zoom: 15
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 </body>
 </html>
