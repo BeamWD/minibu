@@ -6,10 +6,12 @@
 <!-- No link, just place a file called favicon.ico in the root directory -->
 
 <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
-<link rel="icon" href="path/to/favicon-16.png" sizes="16x16" type="image/png" />
-<link rel="icon" href="path/to/favicon-32.png" sizes="32x32" type="image/png" />
-<link rel="icon" href="path/to/favicon-48.png" sizes="48x48" type="image/png" />
-<link rel="icon" href="path/to/favicon-62.png" sizes="62x62" type="image/png" />
+<!--
+<link rel="icon" href="img/favicon-16.png" sizes="16x16" type="image/png" />
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="img/favicon-48.png" sizes="48x48" type="image/png" />
+<link rel="icon" href="img/favicon-62.png" sizes="62x62" type="image/png" />
+-->
 
 <link rel="stylesheet" href="bootstrap.css" />
 <link rel="stylesheet" href="bootstrap-theme.css" />
@@ -63,6 +65,20 @@ input {
 </style>
 
 <style> /*text*/
+@font-face {
+  font-family: franchisebold;
+  src: url(fonts/franchise_bold.ttf);
+}
+@font-face {
+  font-family: masterofbreak;
+  src: url(fonts/master_of_break.ttf);
+}
+p {
+  font-family : franchisebold;
+}
+h1 {
+  font-family : masterofbreak;
+}
 </style>
 
 <style> /*other*/

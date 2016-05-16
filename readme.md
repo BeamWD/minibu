@@ -4,6 +4,8 @@
 
 Application en php + ajax, 2 pages
 
+Mobile-first, device agnostic
+
 ###Partie publique (index.php)
 * Logo
 * Horaires (+ fermé/ouvert) (ass arr)
@@ -33,23 +35,25 @@ Application en php + ajax, 2 pages
 ###To-do list
 **Tâches prioritaires au sommet**
 
-* Présentation
+**Noms de fichiers en gras**
+
+* Front-end
   * Créer variantes taille logo (*2) pour grands écrans
-  * Tester responsivité logo
-  * Créer favicons selon logo (16, 32, 64, 128 px)
-  * Ajouter balises favicon
+  * Créer favicons **favicon-(16/32/64/128).jpeg**
+  * Décommenter balises meta favicon
   * Présenter données php
   * Créer page login
   * Tester login
-  * Upload sur [bastienmichaux.be/minibu](bastienmichaux.be/minibu)
   * Tester favicons
+  * Animer logo ?
+* Back-end 
+  * Créer squelette de la page admin
   * Créer formulaire de contact
   * Créer formulaire de login admin
-  * Animer logo ?
-* Administration 
-  * Créer squelette de la page admin
-* Fait :
+  * Upload version test sur [bastienmichaux.be/minibu](bastienmichaux.be/minibu)
+* Fait
   * Squelette page index
+  * Ajout logo
 
 ###Support
 * IE 8
