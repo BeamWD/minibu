@@ -1,0 +1,16 @@
+/*text*/
+@font-face {
+  font-family: franchisebold;
+  src: url(fonts/franchise_bold.ttf);
+}
+@font-face {
+  font-family: masterofbreak;
+  src: url(fonts/master_of_break.ttf);
+}
+p {
+  font-family : franchisebold;
+}
+h1 {
+  font-family : masterofbreak;
+}
+

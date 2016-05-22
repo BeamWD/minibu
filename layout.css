@@ -1,0 +1,32 @@
+/*layout*/
+
+html, body, #map {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+#page img {
+
+}
+
+
+.admin_page {
+  width: auto;
+}
+
+#footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+#main {
+  margin: 1em;
+}
+#map {
+  clear: both;
+  width: 325px;
+  height: 300px;
+}

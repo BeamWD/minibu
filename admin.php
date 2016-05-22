@@ -16,9 +16,6 @@
 
 </head>
 <body>
-<?php
-  $msg="Entrer mot de passe"
-?>
 <div id="admin_page">
   <div id="admin_login">
     <form class ="form-signin"
@@ -26,32 +23,26 @@
       action ="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>"
       method ="post">
       <h1 class = "form-signin-heading">
-        <?php echo $msg; ?>
+        Entrer mot de passe
       </h1>
-      <label>
-        Utilisateur
-      </label>
-      <input type="text"
-        class="form-control" 
-        name="username"
-        placeholder="username=tutorialspoint" 
-        required
-        autofocus>
-      </br>
       <label>
         Mot de passe
       </label>
       <input type="password"
         class="form-control"
         name="password"
-        placeholder="password=1234"
+        placeholder="Mot de passe"
         required>
       <br />
+      <p>
+        Mot de passe oublié ? <a>Cliquer pour le réinitialiser.</a>
+      </p>
       <button class = "btn btn-lg btn-primary btn-block"
         type = "submit" 
         name = "login">
         Login
       </button>
+      <br />
     </form>
   </div>
 </div>

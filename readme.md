@@ -38,6 +38,9 @@ Mobile-first, device agnostic
 **Noms de fichiers en gras**
 
 * Front-end
+  * Logo : on pourrait enlever barbershop et mettre "coiffeur hommes - barbier"
+  * Logo : à la place de barbershop => Chez Minibu, øsuperior performance and style
+  * Nombre de clients : vert si peu, jaune si moyen, rouge si beaucoup
   * Créer variantes taille logo (*2) pour grands écrans
   * Créer favicons **favicon-(16/32/64/128).jpeg**
   * Décommenter balises meta favicon

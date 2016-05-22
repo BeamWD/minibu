@@ -1,0 +1,13 @@
+/*colors*/
+
+/*
+  rouge : rgb(207,26,32);
+  rouge clair : rgb(237,75,80);
+  gris : rgb(208,210,211);
+  gris clair : rgb(217,219,220);
+  bleu : (50,68,150);
+  bleu clair : (102,123,185);
+*/
+#header, #footer {
+  background-color: rgb(208,210,211);
+}

@@ -1,0 +1,5 @@
+/*images*/
+body {
+  background-image: url(img/bg_diagonal.png);
+  background-repeat: repeat;
+}
