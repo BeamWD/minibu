@@ -10,9 +10,9 @@
 <meta name="keywords" content="Minibu,coiffeur,coiffure,hommes,sans,rendez-vous,Châtelet,Chatelet,place,saint-roch,"/>
 <meta name="description" content="Chez Minibu, coiffure hommes - 000 Place Saint-Roch 000 Châtelet" />
 
-<?php
-  require('header.php')
-?>
+<?php require_once('head.php'); ?>
+
+<?php require_once('script.php'); ?>
 
 </head>
 <body>
@@ -21,21 +21,20 @@
     <form class ="form-signin"
       role ="form"
       action ="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>"
-      method ="post">
+      method ="post"
+    >
       <h1 class = "form-signin-heading">
         Entrer mot de passe
       </h1>
-      <label>
-        Mot de passe
-      </label>
       <input type="password"
         class="form-control"
         name="password"
         placeholder="Mot de passe"
-        required>
+        required
+      />
       <br />
       <p>
-        Mot de passe oublié ? <a>Cliquer pour le réinitialiser.</a>
+        Mot de passe oublié ? <a href="">Cliquer pour le réinitialiser.</a>
       </p>
       <button class = "btn btn-lg btn-primary btn-block"
         type = "submit" 

@@ -1,0 +1,23 @@
+/*text*/
+@font-face {
+  font-family: franchisebold;
+  src: url(../fonts/franchisebold.ttf);
+}
+@font-face {
+  font-family: masterofbreak;
+  src: url(../fonts/masterofbreak.ttf);
+}
+* {
+	/* Fira Sans is a google font :
+	https://www.google.com/fonts#UsePlace:use/Collection:Fira+Sans
+	*/
+  font-family : 'Fira Sans', "Helvetica", "Arial", sans-serif;
+}
+h1 {
+  font-family : masterofbreak, "Georgia", "Times", serif;
+}
+/*
+h2, h3 {
+  font-family : franchisebold, "Impact", "Tahoma", sans-serif;
+}
+*/

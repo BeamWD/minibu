@@ -1,9 +1,0 @@
-Web development : Bastien Michaux
-Graphic assets : Justin Michaux
-
-Thanks to :
-
-KennethCachia http://codepen.io/kennethcachia/pen/dyvwL
-for the counter
-
-
